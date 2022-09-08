@@ -1,0 +1,30 @@
+SipMsg.target
+
+target = self.outbound_proxy or self.rAddr
+
+Creates a SipRequest
+
+from UA
+rTarget
+rUri
+lUri
+lCSeq
+cId
+lContact
+routes
+local_ua
+
+from params
+target
+max_forwards_hf
+
+
+UA stuff constructor(nh_address
+self.rAddr = nh_address
+self.rAddr0 = self.Addr
+
+UacStateIdel
+event -> cId, callingID, calledID, body, auth, callingName = event.getData()
+
+SipURL = sip:<user>:<password>@<domain>:<port>;key1=val1;key2;key3=val3?hdr1=val1&hdr2=val2&hdr3=&hdr4=val4
+SipAddress = Richard Chan <sip:rchan@example.com;transport=tls;ob?key1=value1&key2=&key33=value3>;xyz=123;abc=456;fgh
